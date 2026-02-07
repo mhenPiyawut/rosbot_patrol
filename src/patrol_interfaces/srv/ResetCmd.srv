@@ -1,0 +1,7 @@
+# Request
+string command_type     # e.g., "restart", "shutdown"
+string target_node      # e.g., "patrol_nav_cpp"
+---
+# Response
+bool success
+string message
